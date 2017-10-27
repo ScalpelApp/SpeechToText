@@ -30,6 +30,13 @@ public class Manager : MonoBehaviour {
         password = "Hf4XEkydMnNJ",
         url = "https://stream.watsonplatform.net/speech-to-text/api";
 
+
+    // BACK-UP CREDENTIALS - COMMENT OUT ABOVE LINES AND REMOVE "//" FROM THESE LINES
+    //private string
+    //    username = "095d7fdd-a751-4783-bf30-44f601861ab5",
+    //    password = "7VLquzgEWdIi",
+    //    url = "https://stream.watsonplatform.net/speech-to-text/api";
+
     private SpeechToText _speechToText;
 
     private readonly JsonSerializerSettings jsonSettings = new JsonSerializerSettings
